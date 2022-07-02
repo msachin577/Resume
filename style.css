@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+body{
+    background-color: #a6abad;
+}
+section{
+    display: block;
+}
+#left{
+    grid-column: span 1;
+    background-color: blueviolet;
+}
+#right{
+    grid-column: span 1/span 2;
+    background-color: #f7f7f7;
+    display: grid;
+   
+}
+div.left-content{
+    font: 16px;
+    color: black;
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 300px;
+    width: 315.02px;
+}
+img.profile-img{
+    margin: 0px 53.6094px 0px 53.5938px;
+    height: 160.8;
+    width: 110.42;
+}
+div.profile{
+    color: black;
+    font: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 268;
+    width: 110.42;
+}
+h2.name{
+    font: 19.2px;
+    color: #F5F5F5;
+    height: 268;
+    width: 77.59;
+}
+h4.designation{
+    color: #94D9EA;
+    padding: 0px 0px 8px;
+}
+p.description{
+    height: 268px;
+    width: 64px;
+    color: #F5F5F5;
+    font: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    align-items: center;
+    padding: 16px;
+}
+.social-media{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  } 
+  .fa-facebook {  
+    background: #3B5998;
+    height: 7px;
+    width: 5px;   
+    color: white;  
+  }
+  .fa-linkedin {  
+    background: #007bb5;
+    height: 7px; 
+    width: 5px; 
+    color: white;  
+  }
+  .skill{
+      display: flex;
+      justify-content: center;
+  } 
+  #file{
+      width: 188.4px;
+  }
+  div.right-main-content{
+    padding-top: 32px;
+    padding-top: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  div.right-title{
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 0.5rem;
+      letter-spacing: 1px;
+  }
+  p.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font: 12px;
+  }
+  @media screen and (max-width: 630px) {
+      .main-content{
+          grid-template-columns: repeat(1, 1fr);
+      }
+  }
+  .about{
+    
+      margin-bottom: 20px;
+  }
+  .education{
+    margin-bottom: 20px;
+  }
+  .exper{
+    margin-bottom: 20px; 
+  }
+  .pro{
+    margin-bottom: 20px 
+  }
+ 
+  .h1-right{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px); 
+  }
